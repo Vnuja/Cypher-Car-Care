@@ -1,0 +1,263 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <!-- Header Image -->
+    <View
+        android:id="@+id/image_3"
+        android:layout_width="413dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-2dp"
+        android:background="@drawable/image_3" />
+
+    <EditText
+        android:id="@+id/phone_number_input"
+        android:layout_width="319dp"
+        android:layout_height="42dp"
+        android:background="@drawable/search"
+        android:text="  Search "
+        android:textColor="@color/textColorPrimary"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+
+    <EditText
+        android:id="@+id/vehicle_reg_input"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/form_background"
+        android:text=" "
+        android:textColor="@color/textColorPrimary"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="177dp"
+        android:layout_height="36dp"
+        android:background="transparent"
+        android:text="Mechanical repairs"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="12"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="177dp"
+        android:layout_height="36dp"
+        android:background="transparent"
+        android:text="Accident repairs"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="12"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="177dp"
+        android:layout_height="36dp"
+        android:background="transparent"
+        android:text="Auto Spa"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="12"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="177dp"
+        android:layout_height="36dp"
+        android:background="transparent"
+        android:text="Accessories"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="12"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="177dp"
+        android:layout_height="36dp"
+        android:background="transparent"
+        android:text=" Request Parts"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="12"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <EditText
+        android:id="@+id/vehicle_reg_input"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/form_background"
+        android:text=" "
+        android:textColor="@color/textColorPrimary"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="178dp"
+        android:layout_height="35dp"
+        android:background="transparent"
+        android:text="Service & maintenance"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="12"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <EditText
+        android:id="@+id/vehicle_reg_input"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/form_background"
+        android:text=""
+        android:textColor="@color/textColorPrimary"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <EditText
+        android:id="@+id/vehicle_reg_input"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/form_background"
+        android:text=""
+        android:textColor="@color/textColorPrimary"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <EditText
+        android:id="@+id/vehicle_reg_input"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/form_background"
+        android:text=""
+        android:textColor="@color/textColorPrimary"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <EditText
+        android:id="@+id/vehicle_reg_input"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/form_background"
+        android:text=""
+        android:textColor="@color/textColorPrimary"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <EditText
+        android:id="@+id/vehicle_reg_input"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/form_background"
+        android:text=""
+        android:textColor="@color/textColorPrimary"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/button3"
+        android:layout_width="209dp"
+        android:layout_height="44dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/black"
+        android:textSize="16"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/phone_number_input"
+        app:layout_constraintVertical_bias="0.973" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="153dp"
+        android:layout_height="67dp"
+        android:src="@drawable/carrier"
+        tools:layout_editor_absoluteX="-29dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="198dp"
+        android:layout_height="38dp"
+        android:background="transparent"
+        android:text="24/7 Emergency"
+        android:textColor="@color/black"
+        android:textSize="16"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="62dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/menu"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="119dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/sm"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="107dp"
+        android:layout_height="92dp"
+        app:srcCompat="@drawable/mr"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="121dp"
+        android:layout_height="101dp"
+        app:srcCompat="@drawable/ar"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="121dp"
+        android:layout_height="102dp"
+        app:srcCompat="@drawable/as"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="137dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/acs"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="137dp"
+        android:layout_height="98dp"
+        app:srcCompat="@drawable/cart"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

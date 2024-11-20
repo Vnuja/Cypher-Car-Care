@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Cypher Car Care</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="_07x_xxx_xxxx">07X XXX XXXX</string>
+    <string name="vehicle_reg_no">Vehicle Reg. No</string>
+    <string name="xx_xxxx">XX - XXXX</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="loading">LOADING</string>
+    <string name="cypher_car_care">Cypher Car Care</string>
+    <string name="appointment_confirmed">Appointment Confirmed.</string>
+    <string name="service_and_maintenance_for_xx_xxxx">Service and Maintenance for xx-xxxx</string>
+    <string name="at_colombo_10_branch_on_aug_17th_monday">At Colombo 10 Branch on Aug 17th Monday</string>
+    <string name="continue">Continue</string>
+    <string name="continue">Continue</string>
+    <string name="select_an_available_date_for_appointment">Select an Available Date For Appointment</string>
+    <string name="search">Search</string>
+    <string name="next_appointments">Next Appointments</string>
+    <string name="service_maintenance_for_xx_xxxx_at_colombo_10_branch_on_aug_17th_monday"><![CDATA[Service & Maintenance for xx-xxxx At Colombo 10 Branch on Aug 17th Monday]]></string>
+    <string-array name="branch_array">
+        <item>Kaduwela</item>
+        <item>Colombo 10</item>
+        <item>Kurunegala</item>
+        <item>Kandy</item>
+        <item>Galle</item>
+        <item>Batticaloa</item>
+        <item>Mannar</item>
+    </string-array>
+</resources>

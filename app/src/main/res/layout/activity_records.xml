@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="16dp"
+    tools:context=".Records"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="252dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep Records"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Check your vehicle with us every 6 months and keep safe vehicle records. Detailed records add extra value to your vehicle."
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subtitle">
+
+        <Button
+            android:id="@+id/btn_get_start"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/textColorPrimary"
+            android:text="Get Started"
+            android:textColor="@android:color/black"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="430dp" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/textColorPrimary"
+            android:text="Close App"
+            android:textColor="@android:color/black"
+            tools:layout_editor_absoluteX="214dp"
+            tools:layout_editor_absoluteY="430dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

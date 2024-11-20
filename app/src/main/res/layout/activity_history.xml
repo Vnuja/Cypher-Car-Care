@@ -1,0 +1,324 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <!-- Header Image -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="@string/next_appointments"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Next Appointments"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:layout_width="302dp"
+        android:layout_height="75dp"
+        android:paddingBottom="8dp"
+        android:text="@string/service_maintenance_for_xx_xxxx_at_colombo_10_branch_on_aug_17th_monday"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <TextView
+        android:layout_width="302dp"
+        android:layout_height="75dp"
+        android:paddingBottom="8dp"
+        android:text="
+Service & Maintenance for
+xx-xxxx
+At Colombo 10 Branch on Aug 17th Monday"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:layout_width="302dp"
+        android:layout_height="75dp"
+        android:paddingBottom="8dp"
+        android:text="
+Service & Maintenance for
+xx-xxxx
+At Colombo 10 Branch on Aug 17th Monday"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Appointments 03"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Appointments History"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Appointments 01"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Appointments 02"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <View
+        android:id="@+id/image_3"
+        android:layout_width="413dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-2dp"
+        android:background="@drawable/image_3" />
+
+    <EditText
+        android:id="@+id/phone_number_input"
+        android:layout_width="319dp"
+        android:layout_height="42dp"
+        android:background="@drawable/search"
+        android:text="  Search "
+        android:textColor="@color/textColorPrimary"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+
+    <EditText
+        android:id="@+id/vehicle_reg_input"
+        android:layout_width="322dp"
+        android:layout_height="132dp"
+        android:background="@drawable/form_background"
+        android:text=" "
+        android:textColor="@color/textColorPrimary"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <EditText
+        android:id="@+id/vehicle_reg_input"
+        android:layout_width="317dp"
+        android:layout_height="140dp"
+        android:background="@drawable/form_background"
+        android:text=""
+        android:textColor="@color/textColorPrimary"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <EditText
+        android:id="@+id/vehicle_reg_input"
+        android:layout_width="317dp"
+        android:layout_height="140dp"
+        android:background="@drawable/form_background"
+        android:text=""
+        android:textColor="@color/textColorPrimary"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <TextView
+        android:id="@+id/button3"
+        android:layout_width="209dp"
+        android:layout_height="44dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/black"
+        android:textSize="16"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/phone_number_input"
+        app:layout_constraintVertical_bias="0.973" />
+
+    <TextView
+        android:id="@+id/button3"
+        android:layout_width="64dp"
+        android:layout_height="23dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/black"
+        android:textSize="16"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/phone_number_input"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Delete "
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <TextView
+        android:id="@+id/button3"
+        android:layout_width="64dp"
+        android:layout_height="23dp"
+        android:background="@drawable/delete"
+        android:textColor="@color/black"
+        android:textSize="16"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/phone_number_input"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Modify "
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Delete "
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <TextView
+        android:id="@+id/button3"
+        android:layout_width="64dp"
+        android:layout_height="23dp"
+        android:background="@drawable/delete"
+        android:textColor="@color/black"
+        android:textSize="16"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/phone_number_input"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <TextView
+        android:layout_width="38dp"
+        android:layout_height="21dp"
+        android:paddingBottom="8dp"
+        android:text="Delete "
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <TextView
+        android:id="@+id/button3"
+        android:layout_width="64dp"
+        android:layout_height="23dp"
+        android:background="@drawable/delete"
+        android:textColor="@color/black"
+        android:textSize="16"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/phone_number_input"
+        app:layout_constraintVertical_bias="0.845" />
+
+    <TextView
+        android:layout_width="38dp"
+        android:layout_height="21dp"
+        android:paddingBottom="8dp"
+        android:text="Delete "
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="612dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="153dp"
+        android:layout_height="67dp"
+        android:src="@drawable/carrier"
+        tools:layout_editor_absoluteX="-29dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="198dp"
+        android:layout_height="38dp"
+        android:background="transparent"
+        android:text="24/7 Emergency"
+        android:textColor="@color/black"
+        android:textSize="16"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="62dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/menu"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
